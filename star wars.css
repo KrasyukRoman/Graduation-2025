@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://media.wired.com/photos/59fba14d1c99275335d19e73/master/pass/SPoW_Oct30_2017_06.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 80px;
+    color:rgb(72, 233, 23);
+    font-family: cursive;
+}

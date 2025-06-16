@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/guns.css">
+    </head>
+    <body>
+      <script>
+        
+   let countX = +prompt('Яку оцінку ти отримав?', '');
+switch (countX) {
+    case 1:
+    case 2:
+    case 3:
+    alert( 'Жахливо!' );
+    break;
+  case 4:
+  case 5:
+  case 6:
+    alert( 'Погано' );
+    break;
+    case 7:
+    alert( 'Не дуже' );
+    break;
+    case 8:
+  alert( 'Задовільно' );
+    break;
+    case 9:
+    alert( 'Нормально' );
+    break;
+  case 10:
+  case 11:
+  case 12:
+    alert( 'Гарно!' );
+    break;
+  default:
+    alert( 'Не бреши' );
+}
+let countY = +prompt('В якому місяці народився?', '');
+switch (countY) {
+    case 1:
+    case 2:
+    case 12:
+    alert( 'Зима, можемо зліпити сніговика' );
+    break;
+  case 4:
+  case 3:
+  case 5:
+    alert( 'Весна, все цвіте, алергія...' );
+    break;
+    case 7:
+    case 8:
+    case 6:
+    alert( 'Літо, всі засмагати' );
+    break;
+  case 10:
+  case 11:
+  case 9:
+    alert( 'Осінь, яка ще школа?!' );
+    break;
+  default:
+    alert( 'Не бреши' );
+}
+
+
+let calibre = prompt('Назвіть зброю, а я назву її патрон', '');
+switch(calibre) 
+ {
+  case 'G 36':
+  case 'M 249':
+  case 'AUG':
+  case 'Famas':
+  case 'M 4':
+  case 'Tar 21':
+  case 'Mk 12':
+  case 'F 2000':
+  case 'SKAR L':
+  case 'Negev':
+  document.writeln( '5.56*45 NATO' );
+    break;
+  case 'MG 3':
+  case 'MG 5':
+  case 'Mk 14':
+  case 'G 3':
+  case 'FN MAG':
+  case 'M 240':
+  case 'M 60':
+  case 'AWP':
+  case 'M 110':
+  case 'SKAR V':
+  document.writeln( '7.62*51 NATO' );
+    break;
+  case 'XM 250':
+  case 'XM 7':
+  document.writeln( '6.8*51 NATO' );
+    break;
+  case 'G 17':
+  case 'MP 5':
+  case 'MP 7':
+  case 'G 19':
+  case 'Vektor':
+  case 'UZI':
+  document.writeln( '9*19 ' ); 
+    break;
+  case 'SVD':
+  case 'PKM':
+  document.writeln( '7.62*54 ' ); 
+    break;
+  case 'AS VAL':
+  case 'VSS':
+  document.writeln( '9*39' );
+    break;
+  case 'P 90':
+  document.writeln( '5.7*28' ); 
+    break;
+  case 'MG 338':
+  document.writeln( '338 Norma Magnum' ); 
+    break;
+  case 'M 200':
+  case 'CDX 40':
+  document.writeln( '375 / 408 cheytak' );
+    break;
+  case 'M 82 Barrett':
+  case 'CDX 50':
+  case 'XM 500 Barrett':
+  case 'AX 50':
+  case 'GM 6 Lynx':
+  document.writeln( '50 BMG ( 12.7*99 )' );
+    break;
+   case 'AWM':
+   document.writeln( '300 Lapua Magnum' ); 
+    break;
+  case 'AKM':
+  case 'AK 47':
+  case 'AKS':
+  case 'GROZA':
+  document.writeln( '7.62*39' ); 
+    break;
+  case 'AK 74':
+  case 'AK 74 M':
+  case 'AK 12':
+  case 'GROZA':
+  case 'MALYUK':
+  document.writeln( '5.45*39' ); 
+    break;
+  case 'PM':
+  document.writeln( '9*18' ); 
+    break;
+  case 'S 12':
+  case 'SPAS 12':
+  case 'AA 12':
+  case 'Remington 870':
+  document.writeln( '12 gauge' ); 
+    break;
+    default:
+    document.writeln( 'Поки не додав' );
+}
+/*
+document.getElementById("demo").innerHTML = "Today is " + day;
+*/
+</script>
+  </body>
+</html>

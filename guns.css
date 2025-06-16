@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://autostrike.com.ua/wp-content/uploads/2022/06/1-11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 80px;
+    color:red;
+    font-family: cursive;
+}

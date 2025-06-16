@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-image: url('https://www.wikihow.com/images_en/thumb/3/3e/Calculate-the-Area-of-a-Rectangle-Step-1-Version-2.jpg/670px-Calculate-the-Area-of-a-Rectangle-Step-1-Version-2.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                font-size: 35px;
+                color: red;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+        let a = +prompt("Яка довжина першої сторони прямокутника?", 'a');
+        let b = +prompt("Яка довжина другої сторони прямокутника?", 'b');
+        document.writeln(`Периметр прямокутника:${a+a+b+b} <br>`);
+        document.writeln(`Площа прямокутника: ${a*b}`);
+
+        </script>
+    </body>
+</html>

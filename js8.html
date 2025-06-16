@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+          body{
+              background-image: url('https://www.shutterstock.com/shutterstock/videos/1007086000/thumb/1.jpg');
+              background-size: cover;
+              background-position: center;
+              background-attachment: fixed;
+              font-size: 65px;
+              color: white;
+              font-family: cursive;
+          }
+      </style>
+    </head>
+    <body>
+        <script>
+           let numUser;
+let count =0;
+let numX=38;
+   do { numUser = prompt("вгадайте число від 0 до 100", 0);
+   if (numUser===null) {
+  alert("Ми чекали від Вас число");
+}
+   else if (+numUser<numX) {count++
+  alert("Ваше число менше")
+  alert(`Кількість витрачених спроб: ${count}`);
+} 
+   else if (+numUser>numX){count++
+  alert("Ваше число більше")
+  alert(`Кількість витрачених спроб: ${count}`);
+} 
+   else {count++
+    document.writeln("Ура!!! Вгадали!!! "+numX)
+    document.writeln(`Кількість витрачених спроб: ${count}`);}
+} while (numUser != numX && numUser != null);
+        </script>
+    </body>
+</html>

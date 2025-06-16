@@ -1,0 +1,50 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-image: url('https://img.freepik.com/premium-photo/money-background-us-dollar-bills_359031-15155.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                font-size: 50px;
+                color: blue;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            let age = +prompt('Скільки вам років?');
+if(age >= 18 && age <= 100){
+    alert ('вхід дозволено' )
+    let money = +prompt('Яку суму хочете зняти','');
+if (money < 50 || money > 3000) {
+    document.writeln( 'На жаль, Ви  можете зняти гроші на суму від 50 грн до 3000 грн');
+}
+else if  (money%50==0) {
+    document.writeln(`можете забрати : ${money} грн`)
+}
+else if  (money%50 !=0) {
+    document.writeln(`Мінімальна купюра в банкоматі 50 грн`)
+}
+}
+
+
+else  { 
+    alert (`вхід заборонено бо вам: ${age}` )
+}
+            
+
+
+
+           
+
+
+</script>
+            
+        </body>
+    </html>
